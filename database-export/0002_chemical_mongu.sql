@@ -1,0 +1,1 @@
+ALTER TABLE `supply_units` MODIFY COLUMN `type` enum('customer','supplier','department','other') NOT NULL;

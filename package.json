@@ -1,0 +1,59 @@
+{
+  "name": "inventory-miniapp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "dev": "concurrently -k \"npm --prefix backend run dev\" \"expo start\"",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.6",
+    "expo-router": "~4.0.19",
+    "expo-status-bar": "~3.0.9",
+    "react-native-gesture-handler": "~2.20.0",
+    "react-native-reanimated": "~3.16.0",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-web": "~0.19.13",
+    "react-native-worklets": "0.5.1",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "axios": "^1.7.9",
+    "tailwind-merge": "^2.5.4",
+    "zustand": "^4.5.5",
+    "expo-file-system": "~19.0.21",
+    "expo-image-picker": "~17.0.10",
+    "expo-media-library": "~18.2.1",
+    "expo-secure-store": "~14.0.1",
+    "@tanstack/react-query": "^5.62.0",
+    "@trpc/client": "^11.0.0",
+    "@trpc/react-query": "^11.0.0",
+    "superjson": "^2.2.2",
+    "zod": "^3.23.8",
+    "nativewind": "^4.1.0",
+    "tailwindcss": "^3.4.17",
+    "@expo/react-native-action-sheet": "^4.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "overrides": {
+    "react-native-worklets": "0.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "^18.2.79",
+    "@types/react-native": "^0.72.8",
+    "concurrently": "^9.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.5.0",
+    "postcss": "^8.4.41",
+    "autoprefixer": "^10.4.20",
+    "babel-plugin-module-resolver": "^5.0.2"
+  }
+}
