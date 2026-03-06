@@ -8,7 +8,7 @@
 
 ## 1. 项目概述
 
-**项目名称**：inventory-miniapp-taro（库存管理工具）
+**项目名称**：inventory-miniapp（库存管理工具）
 
 **定位**：移动端仓储ERP系统
 
